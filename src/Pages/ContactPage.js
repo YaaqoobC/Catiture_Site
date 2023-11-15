@@ -30,6 +30,36 @@ function ContactPage() {
     });
   };
 
+  //THIS IS FOR WHEN THE FLASK BACKEND IS IS DEPLYOYED
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault();
+  
+  //   try {
+  //     const response = await fetch('http://127.0.0.1:5001/api/contact', {
+  //       method: 'POST',
+  //       headers: {
+  //         'Content-Type': 'application/json',
+  //       },
+  //       body: JSON.stringify(formData),
+  //     });
+  
+  //     const result = await response.json();
+  //     console.log(result); // Log the result to the console or handle it as needed
+  
+  //     // If needed, update your React state or perform other actions based on the result
+  //   } catch (error) {
+  //     console.error('Error:', error);
+  //     // Handle errors as needed
+  //   }
+  
+  //   // You can also reset the form fields here if needed
+  //   setFormData({
+  //     name: '',
+  //     email: '',
+  //     message: '',
+  //   });
+  // };
+
   return (
     <div className="contact-page">
       <h2 className="section-title">Contact Us</h2>
