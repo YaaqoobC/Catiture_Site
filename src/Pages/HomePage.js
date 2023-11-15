@@ -10,7 +10,7 @@ function HomePage() {
   return (
     <div className="homepage">
       <section className="about-me">
-        <h2 className="section-title">lsdkjfsdlkjfsdlkjfAbout Me</h2>
+        <h2 className="section-title">About Me</h2>
         <p className="section-content">
           Hello, I'm Yaaqoob Choulli, the passionate creator and proud owner of Catiture. At just 15 years old, I've embarked on an exciting journey to provide cat enthusiasts like you with exceptional cat furniture. My passion for craftsmanship was honed during my three years of Junior High construction, and now, I'm channeling that expertise into crafting high-quality, premium cat furniture at prices that won't break the bank.
         </p>
