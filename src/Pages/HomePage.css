@@ -1,0 +1,73 @@
+/* HomePage.css */
+
+.homepage {
+    background-color: #f4f4f4; /* Light gray background color */
+    padding: 20px; /* Add padding to create space around the content */
+    font-family:'Quicksand', sans-serif; /* Choose a suitable font */
+    color: #333; /* Text color */
+  }
+  
+  .section-title {
+    color: #76b39d; /* Accent color */
+    font-size: 40px; /* Increase title font size */
+    margin-bottom: 20px; /* Adjust margin for titles */
+    transition: color 0.3s
+  }
+  .section-title:hover {
+    /* color: #0c9f69; */
+    color: #333;
+  }
+  
+  .section-content {
+    font-size: 24px; /* Font size for content */
+    line-height: 1.5; /* Line height for improved readability */
+    margin-bottom: 15px; /* Adjust spacing between paragraphs */
+    transition: color 0.3s;
+  }
+  .section-content:hover {
+    color: #131313;
+  }
+
+  .slick-slide img {
+    border: 5px solid #333; /* Adjust the border width and color of images in slideshow */
+    transition: border-color 0.3s;
+  }
+
+  .slick-slide img:hover {
+    border-color: #0c9f69; /* Change the border color  on hover */
+  }
+
+  .cat-image img {
+    border: 5px solid #333; /* Adjust the border width and color of images in slideshow */
+    transition: border-color 0.3s;
+    
+  }
+
+  .cat-image img:hover {
+    border-color: #0c9f69; /* Change the border color  on hover */
+  }
+
+  
+  .backstory {
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    justify-content: space-between; /* Distribute content evenly horizontally */
+  }
+  
+  .section-content1 {
+    flex: 1; /* Allow the text to grow and fill available space */
+    margin-right: 20px; /* Add spacing between text and image */
+  }
+  
+  .section-image {
+    flex: 0; /* Do not allow the image to grow; it will take its natural width */
+  }
+
+  .flex-2-boxes {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  
+  
