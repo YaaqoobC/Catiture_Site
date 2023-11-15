@@ -1,5 +1,5 @@
 // ShopPage.js
-import React, {useState} from "react";
+import React from "react";
 import Product from "./Product";
 import './ShopPage.css';
 

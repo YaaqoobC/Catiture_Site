@@ -11,13 +11,7 @@ import table from './PicturesHome/table.png';
 
 
 // Sample image data
-const images = [
-  'skate1',
-  'skate2',
-  'pen',
-  'table'
-  // Add more image URLs here
-];
+const images = [skate1, pen, skate2, table]; // Add more image URLs here
 
 const Slideshow = () => {
   const settings = {
@@ -33,22 +27,13 @@ const Slideshow = () => {
   };
 
   return (
+
     <Slider {...settings}>
-        <div>
-            <img src={skate1} />        
+      {images.map((image, index) => (
+        <div key={index}>
+          <img src={image} alt={`Slide ${index + 1}`} />
         </div>
-       
-        <div>
-            <img src={pen} />  
-        </div>
-              
-        <div>
-            <img src={skate2} />  
-        </div>
-        
-        <div>
-            <img src={table} />   
-        </div>
+      ))}
     </Slider>
   );
 };
